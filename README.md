@@ -1,4 +1,4 @@
-Here's my complete list of features and updates I could find iOS, tvOS, watchOS, MacOS, SDKs and developer tools that were announced at this year's WWDC. This year WWDC 2018 Focus is on performance improvements and deepening exisiting functionality.
+Here's my complete list of features and updates I could learn, listen and find about iOS, tvOS, watchOS, MacOS, SDKs and developer tools that were announced at WWDC 2018. This year WWDC 2018 Focus is on performance improvements and deepening existing functionality.
 
 The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to download the videos and keep track of what you've already watched.
 
@@ -72,7 +72,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Customizable Control Center
 - Third-party apps ( nike & yelp ) will come to the watch face too.
 - New Notification Interface: There are two interfaces for Notification. Dynamic Interface and Interactive Interface. Dynamic Interface is for previous version watchOS Notification support.
-- We can add GestureRecognizer to watchOS Notification.
+- We can add GestureRecognizer to watchOS Notification
+- New background modes: Audio
+- Notification delivered with varying level of urgency
 
 ## tvOS
 
@@ -161,6 +163,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ### Developer Tools
 - 401 - What's New in Swift
+- 402 - Getting the Most out of Playgrounds in Xcode
 
 ### App Frameworks
 - 202 - What's New in Cocoa Touch
+- 204 - Automatic Strong Passwords and Security Code AutoFill
+- 206 - What's New in watchOS
