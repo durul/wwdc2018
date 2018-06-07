@@ -12,7 +12,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - ScreenShots: see a thumbnail in the bottom right corner. You can expand the preview by double-clicking on the thumbnail, an expanded menu, with new options so you can record video
 - Continuity Camera: ability to seamlessly sync messages and files, snap a picture on your iPhone from your computer, and then import that image directly into a piece of content on pages, numbers or keynote.
 - Apps: News, Stocks, Voice Memos, Home come with new and redesigned App Store
-  - Microsoft Office 365, Adobe Lightroom CC, and Barebones BB Edit will go back Mac App Store
+  * Microsoft Office 365, Adobe Lightroom CC, and Barebones BB Edit will go back Mac App Store
 - Group FaceTime: Users are able to drop in and out of videos call whenever they want
 - Security protections: on camera, microphone, mail, messages, and backups
 - Support for cross-platform applications in testing
@@ -20,6 +20,34 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - UIKit to the Mac: the new cross-platform frameworks will be available to third-party developers in 2019.
 
           “Are you merging macOS and iOS? No. We love the Mac”
+
+## iOS SDK
+<https://developer.apple.com/ios/>
+
+[iOS 12.0 API Diffs](https://www.hackingwithswift.com/articles/120/ios-12-api-diffs)
+
+- UserNotifications - new APIs for handling notifications
+  * threadIdentifier. We use for creating own custom group notifications
+  * Notification Content Extension
+    * `notificationActions` : We can access notificationActions as well as dynamically anywhere
+    * Allows to UserInteraction touches notifications Image
+    * Allows to delete action buttons from notification actions
+    * `performNotificationDefaultAction` : Allows to launching application programmatically or custom control with Notification Content Extension
+    * `dismissNotificationContentExtension` : Custom dismiss content extension view
+  * Notification Management
+    * Show notification settings under the app notification settings page
+- `UITableView`:
+  * automatic cell prefetching
+  * data prefetching
+- Automatic Backing Store:
+  * Save grayscale content for rich graphic content
+  * `UIView.draw()`
+  * `UIGraphicsImageRenderer`
+  * `UIGraphicsImageRendererFormat.range`
+- % 50 memory usage decrease for Images
+- `UILabel`:
+  * Uses %75 smaller backing store
+
 
 ## iOS 12
 
@@ -31,20 +59,24 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Doubling down on performance
 - 2x faster app launching, share sheets
 - AR
-  - New App: Measure
-  - Apple, Pixar and Adobe back a standardized AR file format USDZ
-  - Apple unveils [ARKit 2](https://www.apple.com/newsroom/2018/06/apple-unveils-arkit-2/)
+  * New App: Measure
+  * Apple, Pixar and Adobe back a standardized AR file format USDZ
+  * Apple unveils [ARKit 2](https://www.apple.com/newsroom/2018/06/apple-unveils-arkit-2/)
 - Photos
-  - The app has updated search for events, locations and people. Also, we can use multiple search parameters.
-  - Send photos to your friends, also send back any photos they have that are from the same event, time, or location
+  * The app has updated search for events, locations and people. Also, we can use multiple search parameters.
+  * Send photos to your friends, also send back any photos they have that are from the same event, time, or location
 - Siri Shortcuts
-  - Create custom voice commands with Siri that can connect with any app.
-  - User can create own activation text
+  * Create custom voice commands with Siri that can connect with any app.
+  * User can create own activation text
 - Apps: New News, New Stocks, Voice Memos
 - CarPlay: 3rd party navigation apps will work with CarPlay
+- Automatic Passwords
 - Security code AutoFill
 - Third time books app name is changed. The new name is Apple Books
-- Notification Center: Group Notifications
+- Notification Center: 
+  * Group Notifications
+  * Interaction
+  * Settings
 - Screen Time: personalized usage analytics
 - Parents can manage child device remotely
 - Memoji: Next level of enimoji with tongue detection
@@ -67,8 +99,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Student ID card on watch
 - Walkie-Talkie app
 - No longer need to say "hey siri" when raising wrist
-- Siri: watch face shows directions at the appropriate times of the day and provides shortcuts to functions like directions from Citymapper.
-  - Notifications interactive controls available from within them for third-party apps
+- Siri: watch face shows directions at the appropriate times of the day and provides shortcuts to functions like directions from CityMapper.
+  * Notifications interactive controls available from within them for third-party apps
 - Customizable Control Center
 - Third-party apps ( nike & yelp ) will come to the watch face too.
 - New Notification Interface: There are two interfaces for Notification. Dynamic Interface and Interactive Interface. Dynamic Interface is for previous version watchOS Notification support.
@@ -161,11 +193,25 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 102 - Platforms State of the Union
 - 103 - Apple Design Awards
 
+
 ### Developer Tools
 - 401 - What's New in Swift
 - 402 - Getting the Most out of Playgrounds in Xcode
+- 405 - Measuring Performance Using Logging
+- 418 - Source Control Workflows in Xcode
+
 
 ### App Frameworks
 - 202 - What's New in Cocoa Touch
 - 204 - Automatic Strong Passwords and Security Code AutoFill
 - 206 - What's New in watchOS
+- 219 - Image and Graphics Best Practices
+- 220 - High Performance Auto Layout
+
+
+### System Frameworks
+- 710 - What’s New in User Notifications
+
+
+### Designee
+- 802 - Intentional Design
