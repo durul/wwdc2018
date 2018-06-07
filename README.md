@@ -47,6 +47,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - % 50 memory usage decrease for Images
 - `UILabel`:
   * Uses %75 smaller backing store
+- new `requestAuthorization` options `.provisional` and `.providesAppNotificationSettings`
+- xccov: it is Command linetool. It helps to output formats more readable.
 
 
 ## iOS 12
@@ -82,6 +84,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Memoji: Next level of enimoji with tongue detection
 - Connections: Facetime can GroupCall with 32 people in a single call, biggest update of FaceTime
 - Core ML 2
+- [Safari](https://developer.apple.com/safari/whats-new/)
+- More Battery info details
+- RAW photo editing
 
 ## watchOS 5
 
@@ -107,6 +112,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - We can add GestureRecognizer to watchOS Notification
 - New background modes: Audio
 - Notification delivered with varying level of urgency
+- View web pages and HTML messages from Mail and Messages
 
 ## tvOS
 
@@ -152,6 +158,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New code snippets tool can accessible from Xcode Editor menu
 - Run the XCTest in the command line using the xcodebuild tool
 - Parallel testing by creating clones of the simulators
+- Add specific test target
+- Viewing results in the test log and test report
 - Upload App to App Store with the xcodebuild tool
 - Notarized App: Apple will stamp the app before uploading to App Store
 - New shortcut: Select target device or simulator by CTRL+SHIFT+0
@@ -197,7 +205,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ### Developer Tools
 - 401 - What's New in Swift
 - 402 - Getting the Most out of Playgrounds in Xcode
+- 403 - What's New in Testing
 - 405 - Measuring Performance Using Logging
+- 408 - Building Faster in Xcode
 - 418 - Source Control Workflows in Xcode
 
 
@@ -205,13 +215,16 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 202 - What's New in Cocoa Touch
 - 204 - Automatic Strong Passwords and Security Code AutoFill
 - 206 - What's New in watchOS
+- 209 - What's New in Cocoa for macOS
 - 219 - Image and Graphics Best Practices
 - 220 - High Performance Auto Layout
 
 
 ### System Frameworks
+- 702 - Your Apps and the Future of macOS Security
 - 710 - What’s New in User Notifications
 
 
-### Designe
+### Design
 - 802 - Intentional Design
+- 804 - The Life of a Button
