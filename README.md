@@ -213,5 +213,5 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 710 - What’s New in User Notifications
 
 
-### Designee
+### Designe
 - 802 - Intentional Design
