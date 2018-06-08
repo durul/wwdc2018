@@ -4,8 +4,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ## OSX → macOS 10.14 Mojave
 
-- Dark mode: Offical Apple app and Xcode support
-- Dynamic desktop: desktop subytly changes throughout the day
+- Dark mode: Official Apple app and Xcode support
+- Dynamic desktop: desktop subtle changes throughout the day
 - Stacks: group files on your desktop
 - Finder Gallery View: carousel view of files with Automator actions avail from the sidebar
 - QuickLook: markup option, signatures and video trimming
@@ -49,6 +49,20 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
   * Uses %75 smaller backing store
 - new `requestAuthorization` options `.provisional` and `.providesAppNotificationSettings`
 - xccov: it is Command linetool. It helps to output formats more readable.
+- Cascade list: if Chinese first characters font does not have it, we say to use this character instead of it.
+
+
+## watchOS SDK
+<https://developer.apple.com/watchos/>
+
+- Auto Scaling option for incomplete Assets
+- Interactive Notifications
+- New text styles for Fonts
+- Siri Shortcuts
+  * `WKRelevantShortcutRefreshBackgroundTask` : Updating your shortcuts and refresh data
+- New workout builder API
+  * `recoverActiveWorkoutSession()` : Automatic relaunch after crash than session and builder restore
+- New Background Mode for Audio
 
 
 ## iOS 12
@@ -57,7 +71,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 -  App Store Connect app: replacement for the existing [iTunes Connect app](https://itunes.apple.com/us/app/app-store-connect/id1234793120?mt=8)
 - iOS 12 adds multi-user Face ID with support for up to two faces
-- Do Not Disturb During Bedtime
+- Do Not Disturb: Good morning screen & During Bedtime
 - Doubling down on performance
 - 2x faster app launching, share sheets
 - AR
@@ -82,7 +96,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Screen Time: personalized usage analytics
 - Parents can manage child device remotely
 - Memoji: Next level of enimoji with tongue detection
-- Connections: Facetime can GroupCall with 32 people in a single call, biggest update of FaceTime
+- Connections: FaceTime can GroupCall with 32 people in a single call, biggest update of FaceTime
 - Core ML 2
 - [Safari](https://developer.apple.com/safari/whats-new/)
 - More Battery info details
@@ -94,7 +108,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 - watchOS 5 won’t support first gen Apple Watches
 - Activity competitions and awards
-- New workout types: yoga and hiking  
+- New workout types: yoga, cadence and hiking  
 - Running: rolling mile pace, steps per minute or cadence
 - Webkit support, reader mode
 - Podcasts
@@ -168,10 +182,11 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New color option in the action menu
 - Create a SSH Key and upload them directly server accounts
 - New playground interaction: Added new lines of code playground auto restart to playground session.
+- Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character.
 
 
 ## Developer Tool
-- Custom Insturments
+- Custom Instruments
 - New logging API for finding memory issue ```os_signpost```. This will help Instrument for finding to the problem.
 
 
@@ -201,30 +216,41 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 102 - Platforms State of the Union
 - 103 - Apple Design Awards
 
-
-### Developer Tools
-- 401 - What's New in Swift
-- 402 - Getting the Most out of Playgrounds in Xcode
-- 403 - What's New in Testing
-- 405 - Measuring Performance Using Logging
-- 408 - Building Faster in Xcode
-- 418 - Source Control Workflows in Xcode
-
-
 ### App Frameworks
+- 201 - Creating Apps for a Global Audience
 - 202 - What's New in Cocoa Touch
 - 204 - Automatic Strong Passwords and Security Code AutoFill
 - 206 - What's New in watchOS
 - 209 - What's New in Cocoa for macOS
 - 219 - Image and Graphics Best Practices
 - 220 - High Performance Auto Layout
+- 222 - Data You Can Trust
+- 227 - Optimizing App Assets
+- 239 - Designing Web Content for watchOS
+
+
+### Distribution
+- 301 - What's New in App Store
+
+
+### Developer Tools
+- 401 - What's New in Swift
+- 402 - Getting the Most out of Playgrounds in Xcode
+- 403 - What's New in Testing
+- 404 - New Localization Workflows in Xcode 10
+- 405 - Measuring Performance Using Logging
+- 408 - Building Faster in Xcode
+- 411 - Getting know Swift Package Manager
+- 418 - Source Control Workflows in Xcode
 
 
 ### System Frameworks
 - 702 - Your Apps and the Future of macOS Security
 - 710 - What’s New in User Notifications
+- 711 - Using Grouped Notifications
 
 
 ### Design
+- 801 - The Qualities of Great Design
 - 802 - Intentional Design
 - 804 - The Life of a Button
