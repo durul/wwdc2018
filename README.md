@@ -4,6 +4,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ## OSX → macOS 10.14 Mojave
 
+<https://www.apple.com/macos/mojave-preview/>
+
 - Dark mode: Official Apple app and Xcode support
 - Dynamic desktop: desktop subtle changes throughout the day
 - Stacks: group files on your desktop
@@ -22,6 +24,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
           “Are you merging macOS and iOS? No. We love the Mac”
 
 ## iOS SDK
+
 <https://developer.apple.com/ios/>
 
 [iOS 12.0 API Diffs](https://www.hackingwithswift.com/articles/120/ios-12-api-diffs)
@@ -36,6 +39,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * `dismissNotificationContentExtension` : Custom dismiss content extension view
   * Notification Management
     * Show notification settings under the app notification settings page
+      * Deliver Quietly: notification sent directly notification center
+      * Turn Off...
+  * Critical Alert notification
 - `UITableView`:
   * automatic cell prefetching
   * data prefetching
@@ -48,11 +54,14 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - `UILabel`:
   * Uses %75 smaller backing store
 - new `requestAuthorization` options `.provisional` and `.providesAppNotificationSettings`
-- xccov: it is Command linetool. It helps to output formats more readable.
+- Coverage
+  * xccov: it is a new command line tool. It helps to output formats (human-readable or JSON) more readable.
+- iPhone X gives safe areas in portrait and landscape mode
 - Cascade list: if Chinese first characters font does not have it, we say to use this character instead of it.
-
+- Automatic strong passwords
 
 ## watchOS SDK
+
 <https://developer.apple.com/watchos/>
 
 - Auto Scaling option for incomplete Assets
@@ -130,6 +139,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ## tvOS
 
+<https://www.apple.com/apple-tv-4k/>
+
 - Dolby Atmos and 4K HDR support
 - TV App has live news
 - 3rd party remote support: Crestron and Savant can control your Apple TV, including using Siri for voice search and control.
@@ -154,10 +165,31 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - [SE-0075 - Adding a Build Configuration Import Test](https://github.com/apple/swift-evolution/blob/master/proposals/0075-import-test.md)
 - There is 600 Code contributors to swift in Github
 - [SE-0190 - Target environment platform condition](https://github.com/apple/swift-evolution/blob/master/proposals/0190-target-environment-platform-condition.md)
+- Automatic migration to new APIs
+- Nesting
+  * Types
+    * `UIApplication.State`
+    * `UITabBar.ItemPositioning`
+  * Functions
+    * `rect.insetBy()`
+    * `image.pngImage()`
+  * Constants
+    * `UIFloatRange.zero`
 
 ## Design
 
 [Apple updates Design Resources for iOS 12, adds iPad UI elements and Keynote kit](http://developer.apple.com/design/resources)
+
+## Apple Developer Portal
+
+- Apple has announced API to talk to both Apple Developer portal and iTunes Connect. Apple has also combined Apple Developer Portal and iTunes Connect.
+- Transporter has been used for uploading apps to App Store. Now, Transporter has been supported on Linux.
+- TestFlight Public Links
+- AppStore Connect REST API
+  * Manage TestFlight, Profiles, Certificates, Apps, Devices
+  * Use of JWT for authentication
+  * Support for auth tokens for iTunes transporter
+  * Error handling
 
 
 ## Xcode 10
@@ -181,14 +213,15 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - View as: Dark Appearance or System Appearance
 - New color option in the action menu
 - Create a SSH Key and upload them directly server accounts
-- New playground interaction: Added new lines of code playground auto restart to playground session.
-- Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character.
+- New playground interaction: Added new lines of code playground auto restart to playground session
+- Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character
 
 
 ## Developer Tool
-- Custom Instruments
+- Custom Instruments Template
 - New logging API for finding memory issue ```os_signpost```. This will help Instrument for finding to the problem.
-
+  * Signposts appear in the Instruments
+  * We can install Custom Templates in the Instruments
 
 ## Apple Design Award Winners 2018
 
@@ -226,11 +259,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 220 - High Performance Auto Layout
 - 222 - Data You Can Trust
 - 227 - Optimizing App Assets
+- 228 - What’s New in Energy Debugging
 - 239 - Designing Web Content for watchOS
 
 
 ### Distribution
 - 301 - What's New in App Store
+- 303 - Automating App Store Connect
 
 
 ### Developer Tools
@@ -241,6 +276,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 405 - Measuring Performance Using Logging
 - 408 - Building Faster in Xcode
 - 411 - Getting know Swift Package Manager
+- 413 - Create Your Own Swift Playgrounds Subscription
 - 418 - Source Control Workflows in Xcode
 
 
@@ -254,3 +290,4 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 801 - The Qualities of Great Design
 - 802 - Intentional Design
 - 804 - The Life of a Button
+- 806 - Designing Notifications
