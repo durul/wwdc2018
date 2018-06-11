@@ -38,6 +38,10 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - UserNotifications - new APIs for handling notifications
   * threadIdentifier. We use for creating own custom group notifications. If you do not set it, you see under the default group.
     * `threadIdentifier = nil`
+  * summaryArgument. We can collect notifications under the same collect name.
+    * `summaryArgument = nil`
+  * summaryArgumentCount expresses the number of items that summary argument counts for in the summary.
+    * `summaryArgumentCount = 3`
   * Notification Content Extension
     * `notificationActions` : We can access notificationActions as well as dynamically anywhere
     * Allows to UserInteraction touches notifications Image
