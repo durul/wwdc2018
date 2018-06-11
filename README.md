@@ -2,6 +2,12 @@ Here's my complete list of features and updates I could learn, listen and find a
 
 The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to download the videos and keep track of what you've already watched.
 
+[Apple Platform SDK API Differences](http://codeworkshop.net/objc-diff/sdkdiffs/)
+
+[Documentation Archive](https://developer.apple.com/library/archive/navigation/#section=Platforms&topic=iOS)
+
+[Apple Developer Documentation](https://developer.apple.com/documentation)
+
 ## OSX → macOS 10.14 Mojave
 
 <https://www.apple.com/macos/mojave-preview/>
@@ -30,7 +36,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 [iOS 12.0 API Diffs](https://www.hackingwithswift.com/articles/120/ios-12-api-diffs)
 
 - UserNotifications - new APIs for handling notifications
-  * threadIdentifier. We use for creating own custom group notifications
+  * threadIdentifier. We use for creating own custom group notifications. If you do not set it, you see under the default group.
+    * `threadIdentifier = nil`
   * Notification Content Extension
     * `notificationActions` : We can access notificationActions as well as dynamically anywhere
     * Allows to UserInteraction touches notifications Image
@@ -179,6 +186,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ## Design
 
 [Apple updates Design Resources for iOS 12, adds iPad UI elements and Keynote kit](http://developer.apple.com/design/resources)
+[WWDC 2018 - Human Interface Guidelines](https://developer.apple.com/design/whats-new/?id=06042018a)
 
 ## Apple Developer Portal
 
@@ -243,6 +251,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ## WWDC 2018 Videos
 
 [WWDC 2018 video downloader script](https://github.com/ohoachuck/wwdc-downloader)
+
+## Links
+
 
 ### Featured
 - 101 - WWDC 2018 Keynote
