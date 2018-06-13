@@ -227,6 +227,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Create a SSH Key and upload them directly server accounts
 - New playground interaction: Added new lines of code playground auto restart to playground session
 - Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character
+- You can use `#warning` instead of `// TODO:`
 
 
 ## Developer Tool
