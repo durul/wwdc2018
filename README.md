@@ -215,7 +215,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Integration: BitBucket and GitLab
 - New code snippets tool can accessible from Xcode Editor menu
 - Run the XCTest in the command line using the xcodebuild tool
-- Parallel testing by creating clones of the simulators
+- Parallel testing by creating clones of the simulators. Clones delete automatically
+  * `$ xcodebuild -project Demo.xcodeproj/ -scheme Demo -destination 'platform=iOS Simulator,OS=12.0,name=iPhone 7' clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -parallel-testing-worker-count 4`
 - Add specific test target
 - Viewing results in the test log and test report
 - Upload App to App Store with the xcodebuild tool
@@ -290,9 +291,11 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 403 - What's New in Testing
 - 404 - New Localization Workflows in Xcode 10
 - 405 - Measuring Performance Using Logging
+- 407 - Practical Approaches to Great
 - 408 - Building Faster in Xcode
 - 411 - Getting know Swift Package Manager
 - 413 - Create Your Own Swift Playgrounds Subscription
+- 417 - Testing Tips & Tricks
 - 418 - Source Control Workflows in Xcode
 
 
