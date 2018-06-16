@@ -220,7 +220,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Add specific test target
 - Viewing results in the test log and test report
 - Upload App to App Store with the xcodebuild tool
-- Notarized App: Apple will stamp the app before uploading to App Store
+- Notarized App: Apple will stamp the app before uploading to App Store. We have to upload an app to be notarized by Apple.
+  * ``$ xcodebuild -exportNotarizedApp -archivePath <xcarchivepath> -exportPath <destinationpath>``
 - New shortcut: Select target device or simulator by CTRL+SHIFT+0
 - Multi-Line Editing
 - View as: Dark Appearance or System Appearance
@@ -229,6 +230,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New playground interaction: Added new lines of code playground auto restart to playground session
 - Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character
 - You can use `#warning` instead of `// TODO:`
+- Timing Summary: Build with Timing summary
+  * `$ xcodebuild -showBuildTimingSummary`
 
 
 ## Developer Tool
