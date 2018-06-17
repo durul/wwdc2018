@@ -239,6 +239,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New logging API for finding memory issue ```os_signpost```. This will help Instrument for finding to the problem.
   * Signposts appear in the Instruments
   * We can install Custom Templates in the Instruments
+- Debug your view hierarchy by using `po yourView.value(forKey: "recursiveDescription”)!`
+- Dump: print all swift objects and struct properties.  
+  * `(lldb) expr dump(.....)`
 
 ## Apple Design Award Winners 2018
 
@@ -261,8 +264,6 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 [WWDC 2018 video downloader script](https://github.com/ohoachuck/wwdc-downloader)
 
-## Links
-
 
 ### Featured
 - 101 - WWDC 2018 Keynote
@@ -280,6 +281,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 222 - Data You Can Trust
 - 227 - Optimizing App Assets
 - 228 - What’s New in Energy Debugging
+- 233 - Adding Delight to your iOS App
 - 239 - Designing Web Content for watchOS
 
 
@@ -298,6 +300,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 408 - Building Faster in Xcode
 - 411 - Getting know Swift Package Manager
 - 413 - Create Your Own Swift Playgrounds Subscription
+- 415 - Behind the Scenes of the Xcode Build Process
 - 417 - Testing Tips & Tricks
 - 418 - Source Control Workflows in Xcode
 
