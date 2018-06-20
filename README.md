@@ -69,6 +69,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
   * xccov: it is a new command line tool. It helps to output formats (human-readable or JSON) more readable.
 - iPhone X gives safe areas in portrait and landscape mode
 - Cascade list: if Chinese first characters font does not have it, we say to use this character instead of it.
+- `tableView.cellLayoutMarginsFollowReadableWidth = false`. Previously, It was true
+- `tableView.insetsContentViewsToSafeArea = false`. Extending content View from edge to edge
 - Automatic strong passwords
 
 ## watchOS SDK
@@ -282,6 +284,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 227 - Optimizing App Assets
 - 228 - What’s New in Energy Debugging
 - 233 - Adding Delight to your iOS App
+- 235 - UIKit: Apps for Every Size and Shape
 - 239 - Designing Web Content for watchOS
 
 
