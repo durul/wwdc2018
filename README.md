@@ -319,3 +319,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 802 - Intentional Design
 - 804 - The Life of a Button
 - 806 - Designing Notifications
+
+
+## Blogs/Newsletter
+[Indie iOS Focus Weekly 177](https://indieiosfocus.com/issues/177)
