@@ -278,6 +278,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 204 - Automatic Strong Passwords and Security Code AutoFill
 - 206 - What's New in watchOS
 - 209 - What's New in Cocoa for macOS
+- 211 - Introduction to Siri Shortcuts
 - 219 - Image and Graphics Best Practices
 - 220 - High Performance Auto Layout
 - 222 - Data You Can Trust
