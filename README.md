@@ -236,6 +236,10 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - You can use `#warning` instead of `// TODO:`
 - Timing Summary: Build with Timing summary
   * `$ xcodebuild -showBuildTimingSummary`
+- New Xcode Localization catalog `.xcloc` extension, It is a new type of localization artifact
+  * Xcode Localization catalog import `$ xcodebuild -importLocalizations -project <projectname> -localizationPath </path/to/ language.xcloc>`
+  * XLIFF file import `$ xcodebuild -importLocalizations -project <projectname> -localizationPath </path/to/ language.xliff>`
+- `.intentdefinition` extension, allows the localize Siri Shortcuts
 
 
 ## Developer Tool
@@ -246,6 +250,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Debug your view hierarchy by using `po yourView.value(forKey: "recursiveDescription”)!`
 - Dump: print all swift objects and struct properties.  
   * `(lldb) expr dump(.....)`
+
 
 ## Apple Design Award Winners 2018
 
