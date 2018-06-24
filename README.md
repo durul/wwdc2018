@@ -72,6 +72,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - `tableView.cellLayoutMarginsFollowReadableWidth = false`. Previously, It was true
 - `tableView.insetsContentViewsToSafeArea = false`. Extending content View from edge to edge
 - Automatic strong passwords
+- `INRelevantShortcut` Expose Shortcuts to the Siri Watch Face
+- `INPlayMediaIntent`  Allows us to create Shortcuts to play audio and video content
 
 ## watchOS SDK
 
@@ -262,6 +264,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 [WWDC 2018 Edition](https://gist.github.com/hongrich/260fc8c36aaed3f2a63c0612ba9fc910)
 
+## SiriKit
+- [Human Interface Guidelines Siri](https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/siri/)
+- [SiriKit](https://developer.apple.com/documentation/sirikit)
+- [Donatin Shortcuts](https://developer.apple.com/documentation/sirikit/donating_shortcuts)
+- [Deleting Donated Shortcuts](https://developer.apple.com/documentation/sirikit/deleting_donated_shortcuts)
+- [Accelerating App Interactions with Shortcuts](https://developer.apple.com/documentation/sirikit/accelerating_app_interactions_with_shortcuts)
+
 ## WWDC 2018 Videos
 
 [WWDC 2018 video downloader script](https://github.com/ohoachuck/wwdc-downloader)
@@ -279,6 +288,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 206 - What's New in watchOS
 - 209 - What's New in Cocoa for macOS
 - 211 - Introduction to Siri Shortcuts
+- 214 - Building for Voice with Siri Shortcuts
 - 219 - Image and Graphics Best Practices
 - 220 - High Performance Auto Layout
 - 222 - Data You Can Trust
@@ -321,6 +331,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 804 - The Life of a Button
 - 806 - Designing Notifications
 
+## WWDC Students
+[WWDC scholarship entrants from each year](https://github.com/wwdc)
 
 ## Blogs/Newsletter
 [Indie iOS Focus Weekly 177](https://indieiosfocus.com/issues/177)
