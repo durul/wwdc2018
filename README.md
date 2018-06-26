@@ -71,9 +71,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Cascade list: if Chinese first characters font does not have it, we say to use this character instead of it.
 - `tableView.cellLayoutMarginsFollowReadableWidth = false`. Previously, It was true
 - `tableView.insetsContentViewsToSafeArea = false`. Extending content View from edge to edge
-- Automatic strong passwords
+- Automatically generate a strong password: We can define a custom password rule for sing-in our app. `UITextInputPasswordRules`
+  * [Password Rules Validation Tool](https://developer.apple.com/password-rules/)
 - `INRelevantShortcut` Expose Shortcuts to the Siri Watch Face
+- `ASWebAuthenticationSession` handle an OAuth login flow automatically. It publishes
+ instead of the `SFAuthenticationSession`.
 - `INPlayMediaIntent`  Allows us to create Shortcuts to play audio and video content
+- Automatic 2-factor authentication SMS codes input in the UITextfield
 
 ## watchOS SDK
 
