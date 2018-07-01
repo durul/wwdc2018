@@ -42,7 +42,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * `summaryArgument = nil`
   * summaryArgumentCount expresses the number of items that summary argument counts for in the summary.
     * `summaryArgumentCount = 3`
-  * Notification Content Extension
+- Dynamic notifications - Notification Content Extension `UNNotificationContentExtension`
     * `notificationActions` : We can access notificationActions as well as dynamically anywhere
     * Allows to UserInteraction touches notifications Image
     * Allows to delete action buttons from notification actions
@@ -52,7 +52,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * Show notification settings under the app notification settings page
       * Deliver Quietly: notification sent directly notification center
       * Turn Off...
-  * Critical Alert notification
+  * [Critical Alert notification](https://developer.apple.com/contact/request/): Critical notification will be delivered with sound and on screen, even if the Do not disturb mode is enable.
 - `UITableView`:
   * automatic cell prefetching
   * data prefetching
@@ -203,13 +203,14 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ## Apple Developer Portal
 
 - Apple has announced API to talk to both Apple Developer portal and iTunes Connect. Apple has also combined Apple Developer Portal and iTunes Connect.
-- Transporter has been used for uploading apps to App Store. Now, Transporter has been supported on Linux.
+- ITMS Transporter has been used for uploading apps to App Store. Now, Transporter has been supported on Linux.
 - TestFlight Public Links
 - AppStore Connect REST API
   * Manage TestFlight, Profiles, Certificates, Apps, Devices
   * Use of JWT for authentication
   * Support for auth tokens for iTunes transporter
   * Error handling
+- You are able to create and manage certificates & provisioning profiles as you do with Fastlane match.
 
 
 ## Xcode 10
@@ -223,7 +224,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Integration: BitBucket and GitLab
 - New code snippets tool can accessible from Xcode Editor menu
 - Run the XCTest in the command line using the xcodebuild tool
-- Parallel testing by creating clones of the simulators. Clones delete automatically
+- Parallel testing by creating clones of the simulators. Clones delete automatically. Also Unit & UI parallel testing is available on iOS. Unit parallel testing is available on macOS.
   * `$ xcodebuild -project Demo.xcodeproj/ -scheme Demo -destination 'platform=iOS Simulator,OS=12.0,name=iPhone 7' clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -parallel-testing-worker-count 4`
 - Add specific test target
 - Viewing results in the test log and test report
@@ -235,7 +236,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - View as: Dark Appearance or System Appearance
 - New color option in the action menu
 - Create a SSH Key and upload them directly server accounts
-- New playground interaction: Added new lines of code playground auto restart to playground session
+- New playground interaction: Add new lines of code and playground is able to auto restart to playground session and continue running it.
 - Bounded String Pseudolanguage: Showing potential tripping and truncation issue with special character
 - You can use `#warning` instead of `// TODO:`
 - Timing Summary: Build with Timing summary
@@ -321,7 +322,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 405 - Measuring Performance Using Logging
 - 407 - Practical Approaches to Great
 - 408 - Building Faster in Xcode
+- 409 — What’s new in LLVM
 - 411 - Getting know Swift Package Manager
+- 412 — Advanced Debugging with Xcode and LLDB
 - 413 - Create Your Own Swift Playgrounds Subscription
 - 415 - Behind the Scenes of the Xcode Build Process
 - 417 - Testing Tips & Tricks
@@ -330,9 +333,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ### System Frameworks
 - 702 - Your Apps and the Future of macOS Security
+- 704 — Best Practices and What’s New with In-App Purchases
+- 708 — What’s New in Core ML, Part 1
+- 709 — What’s New in Core ML, Part 2
 - 710 - What’s New in User Notifications
 - 711 - Using Grouped Notifications
-
+- 712 — A Guide to Turi Create
+- 717 — Vision with Core ML
 
 ### Design
 - 801 - The Qualities of Great Design
