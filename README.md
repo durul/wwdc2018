@@ -333,13 +333,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ### System Frameworks
 - 702 - Your Apps and the Future of macOS Security
-- 704 — Best Practices and What’s New with In-App Purchases
-- 708 — What’s New in Core ML, Part 1
-- 709 — What’s New in Core ML, Part 2
+- 704 - Best Practices and What’s New with In-App Purchases
+- 708 - What’s New in Core ML, Part 1
+- 709 - What’s New in Core ML, Part 2
 - 710 - What’s New in User Notifications
 - 711 - Using Grouped Notifications
-- 712 — A Guide to Turi Create
-- 717 — Vision with Core ML
+- 712 - A Guide to Turi Create
+- 717 - Vision with Core ML
 
 ### Design
 - 801 - The Qualities of Great Design
