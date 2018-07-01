@@ -92,6 +92,25 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
   * `recoverActiveWorkoutSession()` : Automatic relaunch after crash than session and builder restore
 - New Background Mode for Audio
 
+## tvOS SDK
+
+<https://developer.apple.com/tvos/>
+
+- Password AutoFill
+- Focus Engine enhancements `UIFocusUpdateContext`
+  * `IUIFocusItemContainer` interface,
+  * `UIFocusMovementHint` class,
+  * `IUIFocusItemScrollableContainer` interface.
+- Text Scrolling
+  * `label.enablesMarqueeWhenAncestorFocused = true`
+- [TVUIKit](https://developer.apple.com/documentation/tvuikit)
+  * TVPosterView
+  * TVCaptionButtonView
+  * TVCardView
+  * TVMonogramView
+  * TVLockupView
+- `TVDigitEntryViewController`
+
 
 ## iOS 12
 
@@ -296,6 +315,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 202 - What's New in Cocoa Touch
 - 204 - Automatic Strong Passwords and Security Code AutoFill
 - 206 - What's New in watchOS
+- 208 - What's New in tvOS 12
 - 209 - What's New in Cocoa for macOS
 - 211 - Introduction to Siri Shortcuts
 - 214 - Building for Voice with Siri Shortcuts
