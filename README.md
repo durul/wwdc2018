@@ -319,11 +319,13 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 209 - What's New in Cocoa for macOS
 - 211 - Introduction to Siri Shortcuts
 - 214 - Building for Voice with Siri Shortcuts
+- 217 - Siri Shortcuts on the Siri Watch Face
 - 219 - Image and Graphics Best Practices
 - 220 - High Performance Auto Layout
 - 222 - Data You Can Trust
 - 227 - Optimizing App Assets
 - 228 - What’s New in Energy Debugging
+- 229 - Using Collections Effectively
 - 233 - Adding Delight to your iOS App
 - 235 - UIKit: Apps for Every Size and Shape
 - 239 - Designing Web Content for watchOS
@@ -340,6 +342,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - 403 - What's New in Testing
 - 404 - New Localization Workflows in Xcode 10
 - 405 - Measuring Performance Using Logging
+- 406 - Swift Generics
 - 407 - Practical Approaches to Great
 - 408 - Building Faster in Xcode
 - 409 — What’s new in LLVM
@@ -354,16 +357,20 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ### System Frameworks
 - 702 - Your Apps and the Future of macOS Security
 - 704 - Best Practices and What’s New with In-App Purchases
+- 707 - New Ways to Work with Workouts 
 - 708 - What’s New in Core ML, Part 1
 - 709 - What’s New in Core ML, Part 2
 - 710 - What’s New in User Notifications
 - 711 - Using Grouped Notifications
 - 712 - A Guide to Turi Create
+- 713 - Introducing Natural Language Framework
+- 716 - Object Tracking in Vision
 - 717 - Vision with Core ML
 
 ### Design
 - 801 - The Qualities of Great Design
 - 802 - Intentional Design
+- 803 - Designing Fluid Interfaces
 - 804 - The Life of a Button
 - 806 - Designing Notifications
 
