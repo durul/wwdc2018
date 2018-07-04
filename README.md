@@ -42,6 +42,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * `summaryArgument = nil`
   * summaryArgumentCount expresses the number of items that summary argument counts for in the summary.
     * `summaryArgumentCount = 3`
+  * `categorySummaryFormat` : We can customize is the summary grouped content.
+    * Two forms are allowed: `%u` and `%@`.
 - Dynamic notifications - Notification Content Extension `UNNotificationContentExtension`
     * `notificationActions` : We can access notificationActions as well as dynamically anywhere
     * Allows to UserInteraction touches notifications Image
@@ -50,9 +52,12 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * `dismissNotificationContentExtension` : Custom dismiss content extension view
   * Notification Management
     * Show notification settings under the app notification settings page
-      * Deliver Quietly: notification sent directly notification center
+      * Deliver Quietly: These parameters show notifications only in the notification center, but notifications don’t display an alert and don’t appear on the lock screen and don’t make any sounds. But they are allowed to set a badge.
       * Turn Off...
-  * [Critical Alert notification](https://developer.apple.com/contact/request/): Critical notification will be delivered with sound and on screen, even if the Do not disturb mode is enable.
+  * Critical Alert notification: Critical notification will be delivered with sound and on screen, even if the Do not disturb mode is enable. You need to get special entitlement from [Apple](https://developer.apple.com/contact/request/notifications-critical-alerts-entitlement/).
+    * Remote notifications configuration:, add a `critical: 1` property to the JSON payload
+    * Local notifications configuration:, we need to configured content `UNNotificationSound.defaultCritical`
+    * Override the notification volume : `UNNotificationSound.defaultCriticalSound(withAudioVolume: 1.0)`
 - `UITableView`:
   * automatic cell prefetching
   * data prefetching
@@ -79,6 +84,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - `INPlayMediaIntent`  Allows us to create Shortcuts to play audio and video content
 - Automatic 2-factor authentication SMS codes input in the UITextfield
 
+
 ## watchOS SDK
 
 <https://developer.apple.com/watchos/>
@@ -91,6 +97,12 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New workout builder API
   * `recoverActiveWorkoutSession()` : Automatic relaunch after crash than session and builder restore
 - New Background Mode for Audio
+- Notifications
+  * Group notifications
+  * Quiet notifications
+  * Critical alert notifications
+  * Interactive notifications
+
 
 ## tvOS SDK
 
@@ -134,7 +146,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Apps: New News, New Stocks, Voice Memos
 - CarPlay: 3rd party navigation apps will work with CarPlay
 - Automatic Passwords
-- Security code AutoFill
+- Security code AutoFill: this allow the mobile device to scan incoming SMS messages for such codes and suggest them at the top of the default keyboard.
 - Third time books app name is changed. The new name is Apple Books
 - Notification Center: 
   * Group Notifications
@@ -357,7 +369,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 ### System Frameworks
 - 702 - Your Apps and the Future of macOS Security
 - 704 - Best Practices and What’s New with In-App Purchases
-- 707 - New Ways to Work with Workouts 
+- 707 - New Ways to Work with Workouts
 - 708 - What’s New in Core ML, Part 1
 - 709 - What’s New in Core ML, Part 2
 - 710 - What’s New in User Notifications
