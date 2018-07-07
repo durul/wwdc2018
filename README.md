@@ -132,6 +132,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - iOS 12 adds multi-user Face ID with support for up to two faces
 - Do Not Disturb: Good morning screen & During Bedtime
 - Doubling down on performance
+- 50% faster keyboard display
 - 2x faster app launching, share sheets
 - AR
   * New App: Measure
@@ -159,6 +160,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Core ML 2
 - [Safari](https://developer.apple.com/safari/whats-new/)
 - More Battery info details
+- 70% faster camera snap
 - RAW photo editing
 
 ## watchOS 5
@@ -186,6 +188,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - New background modes: Audio
 - Notification delivered with varying level of urgency
 - View web pages and HTML messages from Mail and Messages
+- Rainbow: Pride edition watch band and face
 
 ## tvOS
 
