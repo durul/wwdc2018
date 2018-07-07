@@ -231,9 +231,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 ## Design
 
-[Apple updates Design Resources for iOS 12, adds iPad UI elements and Keynote kit](http://developer.apple.com/design/resources)
-[WWDC 2018 - Human Interface Guidelines](https://developer.apple.com/design/whats-new/?id=06042018a)
-[WWDC for Designers 2014 - 2018](https://gist.github.com/durul/b686dbe7a6f8473922a6dc5c20399499)
+- [Apple updates Design Resources for iOS 12, adds iPad UI elements and Keynote kit](http://developer.apple.com/design/resources)
+- [WWDC 2018 - Human Interface Guidelines](https://developer.apple.com/design/whats-new/?id=06042018a)
+- [WWDC for Designers 2014 - 2018](https://gist.github.com/durul/b686dbe7a6f8473922a6dc5c20399499)
 
 ## Apple Developer Portal
 
