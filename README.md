@@ -203,8 +203,8 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 
 
 ## Swift 4.2
-
-- Swift 5 is coming in 2019
+[You can follow up all the changes in this version or future version on the official Swift CHANGELOG](https://github.com/apple/swift/blob/master/CHANGELOG.md)
+- Swift 5 is coming in 2019 with ABI stability.
 - Apple plan to deliver with OS than means no need to include the Swift runtime with apps which will result in smaller downloads and faster launches.
 - Completed 18K pull-request
 - SDK improvements
