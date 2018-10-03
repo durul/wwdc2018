@@ -157,7 +157,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Parents can manage child device remotely
 - Memoji: Next level of enimoji with tongue detection
 - Connections: FaceTime can GroupCall with 32 people in a single call, biggest update of FaceTime
-- Core ML 2
+- [Core ML 2](https://developer.apple.com/machine-learning/)
 - [Safari](https://developer.apple.com/safari/whats-new/)
 - More Battery info details
 - 70% faster camera snap
@@ -208,6 +208,7 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
 - Apple plan to deliver with OS than means no need to include the Swift runtime with apps which will result in smaller downloads and faster launches.
 - Completed 18K pull-request
 - SDK improvements
+- [SE-0206 - Hashable Enhancements](https://github.com/apple/swift-evolution/blob/master/proposals/0206-hashable-enhancements.md)
 - Faster builds
 - % 30 less app size
 - [SE-0194 Derived Collection of Enum Cases](https://github.com/apple/swift-evolution/blob/master/proposals/0194-derived-collection-of-enum-cases.md)
@@ -228,6 +229,9 @@ The [unofficial WWDC Mac app](https://github.com/insidegui/WWDC) is good way to 
     * `image.pngImage()`
   * Constants
     * `UIFloatRange.zero`
+- [SE-0143 - Conditional conformances](https://github.com/apple/swift-evolution/blob/master/proposals/0190-target-environment-platform-condition.md)
+- [SE-0204 - Add last methods](https://github.com/apple/swift-evolution/blob/master/proposals/0204-add-last-methods.md)
+- [SE-0207 - Contains only](https://github.com/apple/swift-evolution/blob/master/proposals/0207-containsOnly.md)
 
 ## Design
 
